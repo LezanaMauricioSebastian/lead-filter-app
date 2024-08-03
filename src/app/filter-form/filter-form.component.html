@@ -1,0 +1,24 @@
+<form (ngSubmit)="onSubmit()">
+    <label for="Role">Role:</label>
+    <select id="Role" [(ngModel)]="filters.role" name="Role">
+      <option *ngFor="let Role of roles" [value]="Role.id">{{ Role.categoryName }}</option>
+    </select>
+  
+    <label for="industry">Industry:</label>
+    <select id="industry" [(ngModel)]="filters.industry" name="industry">
+      <option *ngFor="let industry of industries" [value]="industry.id">{{ industry.categoryName }}</option>
+    </select>
+  
+    <label for="country">Country:</label>
+    <select id="country" [(ngModel)]="filters.country" name="country">
+      <option *ngFor="let country of countries" [value]="country.id">{{ country.categoryName }}</option>
+    </select>
+  
+    <label for="cnae">CNAE:</label>
+    <select id="cnae" [(ngModel)]="filters.cnae" name="cnae">
+      <option *ngFor="let cnae of cnaes" [value]="cnae.id">{{ cnae.categoryName }}</option>
+    </select>
+  
+    <button type="submit">Download CSV</button>
+  </form>
+  
