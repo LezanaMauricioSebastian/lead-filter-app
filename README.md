@@ -1,6 +1,7 @@
 # about this project
 
-backend used backend project  "back-filterform" and uses the following database: https://docs.google.com/spreadsheets/d/1yA6Ta0iJdYM4hS8ghy6XqauDenDTQUeF93qWnRPPX_w/edit?usp=sharing
+backend project used: "back-filterform" 
+it uses the following database: https://docs.google.com/spreadsheets/d/1yA6Ta0iJdYM4hS8ghy6XqauDenDTQUeF93qWnRPPX_w/edit?usp=sharing
 
 
 # LeadFilterApp
