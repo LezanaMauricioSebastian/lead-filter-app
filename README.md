@@ -1,3 +1,8 @@
+# about this project
+
+backend used backend project  "back-filterform" and uses the following database: https://docs.google.com/spreadsheets/d/1yA6Ta0iJdYM4hS8ghy6XqauDenDTQUeF93qWnRPPX_w/edit?usp=sharing
+
+
 # LeadFilterApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
